@@ -1,0 +1,8 @@
+ // variable declaration
+String name;
+
+// variable initialization
+name="Minahil umer";
+
+// variable declaration and initialization on same line
+String name="Minahil umer";

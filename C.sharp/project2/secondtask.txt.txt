@@ -1,0 +1,19 @@
+ 
+using System;
+class DatatypeRanges
+{
+  static void Main()
+{
+  Console.WriteLine("Selected Data Types");
+ 
+// minimun and maximum range of integer datatype
+
+   Console.WriteLine($"int Min={int.MinValue},Max={int.MaxValue}");
+// minimum and maximum value of long
+   Console.WriteLine($"long Min={long.MinValue},Max={long.MaxValue}");
+// minimum and maximum value of double datatype
+   Console.WriteLine($"double Min={double.MinValue},Max={double.MaxValue}");
+// minimum and maximum value of String 
+   Console.WriteLine("string doesnot have a specific min or max value");
+  } 
+}
